@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Historia, Cultura y Clima
+
+</title>
+</head>
+<body>
+    <h1> Introduccion a Guerrero</h1>
+    
+    <p>Historia, cultura y clima.</p>
+
+    <h2>Historia</h2>
+    <p>Guerrero tiene una historia rica y diversa que abarca desde la época  <strong>prehispánica</strong> y <em>hasta la actualidad.</em>.</p>
+    
+    <ul>
+        <li> Herencia Prehispánica y Conquista:
+Guerrero alberga una rica herencia prehispánica, habitada por diversas culturas como los olmecas, mixtecos y nahuas. Estas civilizaciones dejaron su marca a través de arte, arquitectura y tradiciones. Durante la conquista española en el siglo XVI, Hernán Cortés fundó la villa de Taxco, que rápidamente se convirtió en un epicentro de minería de plata y comercio. La explotación de recursos naturales y la introducción de la cultura europea impactaron profundamente en la región. </li>
+        <li>Vicente Guerrero y la Independencia:
+Vicente Guerrero, nacido en Tixtla, Guerrero, emergió como una figura icónica durante la lucha por la independencia de México. Como líder insurgente, se unió a la causa de Miguel Hidalgo y posteriormente jugó un papel clave en la firma del Plan de Iguala en 1821. Este plan sentó las bases para la independencia y la unión del país, marcando un hito en la historia de Guerrero y México en general.</li>
+    </ul>
+
+    <ol>
+        <li>Presidencia de Vicente Guerrero:
+En 1829, Vicente Guerrero asumió la presidencia de México, convirtiéndose en el segundo presidente del país. Su mandato fue caracterizado por su compromiso con la justicia social y la igualdad. Guerrero abogó por reformas que abolieran la esclavitud y promovieran los derechos de los indígenas. Aunque su presidencia fue breve debido a la inestabilidad política, su legado dejó una huella duradera en la historia de Guerrero y del país.</li>
+        <li>Participación en Conflictos y Cultura Identitaria:
+A lo largo del siglo XIX y principios del XX, Guerrero siguió siendo escenario de diversos conflictos políticos y sociales. Durante la Guerra de Reforma y la Revolución Mexicana, la región fue testigo de luchas intensas que contribuyeron a la transformación del país. La cultura guerrerense sigue siendo profundamente influenciada por su diversidad étnica y su herencia indígena, manifestándose en festividades como la "Feria de San Mateo", la música tradicional y las artesanías únicas.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Cultura</h2>
+    <p>Cultura:
+La cultura de Guerrero es diversa y vibrante, fusionando influencias indígenas y españolas. La música y la danza son elementos fundamentales de la cultura. La "Feria de San Mateo" en Taxco es un evento emblemático que celebra al santo patrón con desfiles, música y danzas tradicionales. La artesanía también es una parte esencial de la cultura, con especial énfasis en la platería en Taxco, donde los artesanos crean piezas únicas.
+
+Las festividades y tradiciones indígenas también tienen un lugar importante en la cultura de Guerrero. Muchas comunidades en el estado celebran festivales y rituales que honran sus raíces ancestrales. La influencia de la cultura indígena se refleja en la gastronomía, la música y las tradiciones locales.</p>
+
+    <img src="Cultura.jpg" alt="Cultura">
+
+    <hr>
+
+    <h2>Clima</h2>
+    <table>
+        <tr>
+            <th>Aspectos Clave</th>
+            <th>Características</th>
+        </tr>
+        <tr>
+            <td>Clima Tropical: Guerrero se caracteriza por tener un clima principalmente tropical en la mayoría de sus áreas. Las temperaturas son cálidas durante todo el año, y una temporada de lluvias, que generalmente va de mayo a octubre, trae consigo una alta humedad y precipitaciones considerables.</td>
+            <td>Variedad Altitudinal: Debido a su topografía diversa, el clima en Guerrero varía significativamente con la altitud. En las zonas costeras, las temperaturas son cálidas y húmedas, mientras que las áreas montañosas, como Taxco, experimentan temperaturas más frescas debido a su mayor altitud.</td>
+        </tr>
+        <tr>
+            <td>Temperaturas Cálidas: Las temperaturas en Guerrero son en su mayoría cálidas durante la mayor parte del año. En las zonas bajas y costeras, las temperaturas promedio oscilan entre los 25°C y 35°C. En áreas más elevadas, las temperaturas son más frescas, especialmente durante las noches.</td>
+            <td>Variabilidad Estacional: El clima en Guerrero muestra variaciones estacionales. Durante la temporada de lluvias, que abarca desde mayo hasta octubre, las precipitaciones aumentan y la humedad es alta. En contraste, la temporada seca, de noviembre a abril, es más fresca y menos húmeda, lo que la convierte en una época popular para los visitantes.</td>
+        </tr>
+    </table>
+
+    <marquee behavior="scroll" direction="left">"Como un bailarín en el escenario, el dato se desliza elegantemente de un extremo a otro del texto, tejiendo una narrativa dinámica que revela sus secretos a medida que avanza."</marquee>
+
+<a href="INDEX.html">Pagina Principal</a><br>
+    <a href="indice.html">Indice</a><br>
+    <a href="ortega.jesus.191441@cetis054.edu.mx">Correo Integrante </a><br>
+    <a href="https://sic.cultura.gob.mx/lista.php?table=zona_arqueologica&estado_id=12&municipio_id=-1">Enlace a Pagina, Gobierno:Cultura</a>
+
+</body>
+</html>

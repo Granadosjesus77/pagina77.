@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_importancia.css">
+    <title>Importancia Arqueológica</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Importancia Arqueológica</h1>
+    </div>
+
+    <div id="content">
+        <h2>Destacadas Zonas Arqueológicas</h2>
+        <p>Guerrero alberga un legado arqueológico invaluable que ofrece una ventana a las civilizaciones prehispánicas que habitaron la región. Estas zonas arqueológicas no solo son testimonios de la historia antigua, sino también destinos fascinantes para los amantes de la arqueología y los viajeros curiosos.
+
+Zona Arqueológica de Taxco el Viejo:
+Ubicada en el municipio de Taxco, esta zona arqueológica presenta las ruinas de una antigua ciudad que floreció en la época prehispánica. Los vestigios incluyen estructuras ceremoniales, plazas y terrazas que brindan información sobre la vida y la cultura de los habitantes originales.
+
+Zona Arqueológica de Palma Sola:
+Palma Sola, ubicada cerca de Iguala, es otro sitio arqueológico importante en Guerrero. Con una historia que se remonta a más de 2,000 años, este lugar ofrece una visión de la vida cotidiana y las prácticas culturales de las sociedades antiguas a través de sus petroglifos y estructuras arquitectónicas.
+
+Zona Arqueológica de La Organera:
+Este sitio arqueológico se encuentra en las cercanías de Acapulco y es reconocido por sus petroglifos y pinturas rupestres. La Organera proporciona pistas sobre las creencias y la cosmología de los antiguos habitantes de la región, permitiendo a los visitantes explorar la conexión entre la cultura y el entorno natural.
+
+Zona Arqueológica de Tehuacalco:
+En el municipio de Zihuatanejo, la Zona Arqueológica de Tehuacalco ofrece pirámides y estructuras prehispánicas que datan de diferentes periodos. Este sitio es un testimonio de la evolución de las culturas que habitaron la región y ofrece una perspectiva única sobre sus modos de vida y creencias.
+
+Importancia Arqueológica:
+Estas zonas arqueológicas no solo preservan la historia de Guerrero, sino que también contribuyen a nuestro entendimiento de la complejidad y diversidad de las civilizaciones antiguas que prosperaron en la región. A través de la exploración y el estudio de estos sitios, se descubren vínculos culturales y avances tecnológicos que enriquecen nuestra apreciación de la herencia prehispánica de México.</p>
+        
+        <h3>Zonas Arqueológicas</h3>
+        <table class="custom-table">
+            <tr>
+                <th>Zona Arqueológica</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Tlatelolco</td>
+                <td>Tlatelolco es un nombre que evoca la grandeza de la antigua Tenochtitlán y de la cultura azteca. Esta zona arqueológica era un importante centro ceremonial y comercial que funcionaba como contraparte de Tenochtitlán, la capital azteca. Tlatelolco fue un lugar de encuentro cultural y comercial, con mercados vibrantes y espacios para celebraciones y ceremonias religiosas. Además, fue el escenario del trágico evento conocido como la Matanza de Tlatelolco en 1968, que marcó un punto de inflexión en la historia moderna de México.</td>
+            </tr>
+            <tr>
+                <td>Xochicalco</td>
+                <td>Xochicalco, cuyo nombre en náhuatl significa "En el Lugar de la Casa de las Flores", es un complejo arqueológico que combina influencias de diversas culturas prehispánicas. Este sitio fue ocupado por varias civilizaciones a lo largo de los siglos, incluyendo los olmecas, los toltecas y los aztecas. Se caracteriza por sus impresionantes edificaciones, plazas y observatorios astronómicos. La Pirámide de la Serpiente Emplumada es uno de los monumentos más icónicos de Xochicalco y muestra la influencia tolteca en la región.</td>
+            </tr>
+            <tr>
+                <td>Teotihuacán</td>
+                <td>Teotihuacán, conocida como la "Ciudad de los Dioses", es uno de los sitios arqueológicos más emblemáticos de México y una de las antiguas ciudades más grandes del mundo. Situada en el Valle de México, Teotihuacán floreció entre los siglos I y VII d.C. Sus impresionantes pirámides, la Pirámide del Sol y la Pirámide de la Luna, dominan el horizonte y simbolizan la conexión entre la Tierra y el cielo. Teotihuacán fue un importante centro de comercio, religión y cultura, y su legado sigue siendo un testimonio del ingenio y la organización de sus habitantes.</td>
+            </tr>
+        </table>
+
+<!-- Agregar el video usando iframe -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NuUjx1lqABo" frameborder="0" allowfullscreen></iframe>
+
+        <a href="INDEX.html">Enlace a la página Principal</a><br>
+        <a href="geografia.html">Enlace a otra página</a><br>
+        <a href="ortega.jesus.191441@cetis054.edu.mx.com">Contacto</a><br>
+        <a href="https://arqueologiamexicana.mx/mexico-antiguo/arqueologia-de-guerrero">Enlace externo</a>
+    </div>
+</body>
+</html>

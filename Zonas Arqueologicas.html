@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_formulario.css">
+    <title>Destacadas Zonas Arqueológicas</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Destacadas Zonas Arqueológicas</h1>
+    </div>
+
+    <div id="content">
+        <h2>Zonas Arqueológicas</h2>
+        <p>En esta sección se presentan algunas destacadas zonas arqueológicas:</p>
+        
+        <ul>
+            <li><a href="#">a. Teotihuacán es una de las zonas arqueológicas más icónicas de México y una joya del patrimonio prehispánico. Conocida como "La Ciudad de los Dioses", esta antigua metrópolis fue hogar de una de las civilizaciones más avanzadas y grandes de la antigüedad. Sus imponentes pirámides, como la Pirámide del Sol y la Pirámide de la Luna, son símbolos de su grandeza. Teotihuacán fue un centro de comercio, religión y cultura, y su influencia se extendió por toda Mesoamérica.</a></li>
+            <li><a href="#">b. Aunque Chichén Itzá se encuentra en el estado de Yucatán, es uno de los sitios arqueológicos más impresionantes y famosos de México. Esta antigua ciudad maya destaca por su icónica pirámide escalonada conocida como El Castillo. Chichén Itzá es un testimonio de la compleja arquitectura y conocimiento astronómico de los mayas. Además, es un ejemplo de la fusión de las culturas maya y tolteca.</a></li>
+            <li><a href="#">c. Palenque es un tesoro arqueológico ubicado en la selva de Chiapas. Famosa por su estilo arquitectónico único y sus intrincadas inscripciones jeroglíficas, Palenque fue una de las ciudades más importantes del periodo clásico de la civilización maya. Sus templos, palacios y pirámides, como el Templo de las Inscripciones, muestran la habilidad artística y la complejidad cultural de los antiguos mayas.</a></li>
+        </ul>
+
+        <div class="container">
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="direccion">correo:</label>
+                <input type="text" id="direccion" required>
+                <label for="correo">Número de celular:</label>
+                <input type="email" id="correo" required>
+                <label for="celular">grupo</label>
+                <input type="tel" id="celular" required>
+                <label for="grupo">Que te parece La Pagina?</label>
+                <input type="text" id="grupo" required>
+                <label>Turno:</label>
+                <input type="radio" name="turno" value="mañana" required> Mañana
+                <input type="radio" name="turno" value="tarde" required> Tarde
+                <label for="especialidad">Especialidad:</label>
+                <select class="input-field" id="especialidad" required>
+                    <option value="arqueologia">programacion</option>
+                    <option value="historia">Ofimatica</option>
+                    <option value="antropologia">Contaduria</option>
+                </select>
+                <label>Etiquetas:</label>
+                <input type="checkbox" name="etiquetas" value="interesante"> Interesante
+                <input type="checkbox" name="etiquetas" value="importante"> Importante
+                <input type="checkbox" name="etiquetas" value="novedoso"> Novedoso
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <a href="INDEX.html">Enlace a la página Principal</a><br>
+        <a href="Introducción a Guerrero.html">Enlace a otra página</a><br>
+        <a href="ortega.jesus.191441@cetis054.edu.mx.com">Contacto</a><br>
+        <a href="https://arqueologiamexicana.mx/mexico-antiguo/arqueologia-de-guerrero">Enlace externo</a>
+    </div>
+</body>
+</html>

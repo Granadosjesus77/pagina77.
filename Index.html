@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Estados de la republica</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo img {
+            height: 60px;
+        }
+
+        #school-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #menu a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        #menu a:hover {
+            color: #007bff;
+        }
+
+        #background-image {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70vh;
+            background-image: url('Fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            width: 300%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel img {
+            width: 33.33%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        #info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        #info-list li {
+            margin-bottom: 5px;
+        }
+
+        #info-list strong {
+            display: inline-block;
+            width: 130px;
+            font-weight: bold;
+        }
+
+        #video-container {
+            text-align: center;
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        .video-overlay {
+            position: relative;
+            padding-bottom: 56.25%;
+            width: 100%;
+        }
+
+        .video-overlay iframe,
+        .video-overlay a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="logotipo.png" alt="Logo de la Escuela">
+        </div>
+        <div id="school-name">
+            Estados de la República - Zonas Arqueológicas en Guerrero
+        </div>
+    </div>
+
+    <ul id="info-list">
+        <li><strong>Integrantes:</strong> Jesus Manuel Ortega Granados</li>
+        <li><strong>Submódulo:</strong> Construye Paginas Web</li>
+        <li><strong>Docente:</strong> Ana Belem Moreno Hernandez</li>
+        <li><strong>Fecha de Entrega:</strong> 15-08-23</li>
+    </ul>
+
+    <div id="menu">
+        <a href="Menu.html">1. Menu</a>
+        <a href="Introducción a Guerrero.html">2. Introducción a Guerrero</a>
+        <a href="geografia.html">3. Geografía y Ubicación</a>
+        <a href="importancia.html">4. Importancia Arqueológica</a>
+        <a href="Zonas Arqueologicas.html">5. Zonas Arqueológicas</a>
+        <a href="Legado Cultural.html">6. Legado Cultural</a>
+        <a href="biodiversidad.html">7. Biodiversidad</a>
+        <a href="experiencia_turistica.html">8. Experiencia Turística/Opinion</a>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <img src="imagen3.jpg" alt="Imagen 3">
+        </div>
+        <div class="prev" onclick="prevSlide()">&#10094;</div>
+        <div class="next" onclick="nextSlide()">&#10095;</div>
+    </div>
+
+    <div id="background-image"></div>
+
+    <div id="video-container">
+        <div class="video-overlay">
+            <a href="https://www.youtube.com/watch?v=zTgvZXbLjPE" target="_blank">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zTgvZXbLjPE"
+
+                frameborder="0" allowfullscreen></iframe>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+
+        function showSlide() {
+            const carousel = document.querySelector('.carousel');
+            carousel.style.transform = `translateX(-${slideIndex * 33.33}%)`;
+        }
+
+        function prevSlide() {
+            if (slideIndex > 0) {
+                slideIndex--;
+                showSlide();
+            }
+        }
+
+        function nextSlide() {
+            if (slideIndex < 2) { // Cambia el valor a la cantidad de imágenes menos 1
+                slideIndex++;
+                showSlide();
+            }
+        }
+
+        showSlide();
+    </script>
+</body>
+</html>

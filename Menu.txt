@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Índice: Estados de la República - Zonas Arqueológicas en Guerrero</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Índice: Estados de la República - Zonas Arqueológicas en Guerrero</h1>
+    </div>
+
+    <div id="content">
+        <h2>Introducción a Guerrero</h2>
+        <ul>
+            <li><a href="Introducción a Guerrero.html">a. Historia</a></li>
+            <li><a href="Introducción a Guerrero.html">b. Cultura</a></li>
+            <li><a href="Introducción a Guerrero.html">c. Clima</a></li>
+        </ul>
+        
+        <h2>Geografía y Ubicación</h2>
+        <ul>
+         <li><a href="geografia.html">a. Territorio y Altitud</a></li>
+            <li><a href="geografia.html">b. Colindancias y Hidrografía</a></li>
+          
+        </ul>
+
+        <h2>Importancia Arqueológica</h2>
+        <ul>
+          <li><a href="Zonas Arqueologicas.html">a. Destacadas Zonas Arqueologicas</a></li>
+        </ul>
+        
+        <h2>Legado Cultural y Tradiciones</h2>
+        <ul>
+            <li><a href="Legado Cultural.html">a. Lenguas y Vestimenta</a></li>
+             <li><a href="Legado Cultural.html">b. Aspectos Culturales y Folklore</a></li>
+        </ul>
+
+        <h2>Biodiversidad y Entorno</h2>
+        <ul>
+             <li><a href="biodiversidad.html">a. Flora y Fauna en las Zonas Arqueológicas</a></li>
+        </ul>
+
+        <h2>Experiencia Turística</h2>
+        <ul>
+           <li><a href="experiencia_turistica.html">a. Atracciones Arqueológicas</a></li>
+             <li><a href="experiencia_turistica.html">b. Medios de Transporte</a></li>
+        </ul>
+    </div>
+<br>
+ <footer>
+        <a href="index.html">Enlace a la página Principal</a><br>
+       
+        <a href="mailto:ortega.jesus.191441@cetis054.edu.mx">Contacto</a><br>
+        
+    </footer>
+
+</body>
+</html>
+
